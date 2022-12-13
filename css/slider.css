@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.slider{
+    *width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d212b;
+}
+
+.contenedor-slider{
+    position: relative;
+    width: 800px;
+    height: 500px;
+    margin: 10px;
+    background-color: #1d212b;
+}
+
+.slide{
+    z-index: 1;
+    position: absolute;
+}
+
+.navegacion{
+    z-index: 2;
+    position: absolute;
+    display: flex;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.navegacion .btn{
+    background-color: rgb(255,255 , 255,0.5);
+    width: 12px;
+    height: 12px;
+    margin: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    cursor: pointer;
+}
+.blanco, .verde, .rojo, .azul,.morado, .lila, .naranja{
+    width: 100%;
+    height: 100%;
+}
+
+.blanco{
+    background-color: aliceblue;
+    
+}
+.verde{
+    background-color: rgb(35, 172, 58);
+}
+.rojo {
+    background-color: rgb(219, 66, 66);
+}
+.azul{background-color: rgb(40, 40, 192);}
+
+
+.morado{
+    background-color: blueviolet;
+}
+.lila {
+    background-color: rgb(163, 116, 207);
+}
+.naranja {
+    background-color: coral;
+}
