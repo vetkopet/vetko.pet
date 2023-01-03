@@ -99,10 +99,21 @@ body.no-scroll{
     justify-content: space-between;
     left: -360px;
     top:0;
+    transition: .3s ease-out all;
+    -webkit-transition: .3s ease-out all;
+    -moz-transition: .3s ease-out all;
+    -ms-transition: .3s ease-out all;
+    -o-transition: .3s ease-out all;
 }
 
 .contenedor-nav--activado{
     left: 0;
+    transition: .3s ease-out all;
+    -webkit-transition: .3s ease-out all;
+    -moz-transition: .3s ease-out all;
+    -ms-transition: .3s ease-out all;
+    -o-transition: .3s ease-out all;
+
 }
 .nav__item {
     cursor: pointer;
